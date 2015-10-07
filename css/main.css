@@ -1,0 +1,36 @@
+#mainWrapper {
+  background-color: pink;
+  width: 100%; }
+
+#search1 {
+  background-color: orange;
+  width: 100%; }
+
+#search2 {
+  background-color: yellow;
+  width: 100%; }
+
+#contentWrapper {
+  background-color: grey;
+  width: 100%; }
+
+aside {
+  background-color: blue; }
+
+#allCat {
+  background-color: red; }
+
+#refineSearch {
+  background-color: purple; }
+
+#mainContent {
+  background-color: yellow; }
+
+footer {
+  background-color: yellow; }
+
+#relatedWhiskey {
+  background-color: red; }
+
+#lookingShops {
+  background-color: green; }
