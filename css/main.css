@@ -1,8 +1,19 @@
 a {
   text-decoration: none; }
+  a:link {
+    color: #0E92B5;
+    font-weight: 100; }
+
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0; }
 
 ul, li {
   list-style: none; }
+
+nav {
+  margin: 0;
+  padding: 0; }
 
 #mainWrapper {
   background-color: pink;
@@ -10,38 +21,67 @@ ul, li {
   #mainWrapper #search1 {
     background-color: orange;
     width: 100%;
-    height: 80px; }
+    height: 80px;
+    border-bottom: 1px solid #E1E3DF;
+    margin: 0; }
     #mainWrapper #search1 #search1A {
+      background-color: blue;
       display: inline-block;
-      width: 45%; }
+      width: 49%;
+      margin: 0; }
       #mainWrapper #search1 #search1A #etsyLogo {
-        display: inline-block; }
+        display: inline-block;
+        color: #F56400; }
       #mainWrapper #search1 #search1A #whiskeySearch {
-        display: inline-block; }
+        display: inline-block;
+        background-color: white;
+        border: 1px solid #B2B2B2;
+        padding: 8px 60px;
+        margin: 0px; }
       #mainWrapper #search1 #search1A #whiskeySearchBtn {
-        display: inline-block; }
+        display: inline-block;
+        background-color: #34A8C4;
+        color: white;
+        padding: 8px 20px;
+        border-radius: 3px;
+        margin: 0px; }
     #mainWrapper #search1 #search1B {
       display: inline-block;
-      width: 45%; }
+      width: 45%;
+      margin: 10px 0;
+      background-color: purple; }
       #mainWrapper #search1 #search1B #sellOnEtsy {
-        display: inline-block; }
+        display: inline-block;
+        color: #0E92B5; }
       #mainWrapper #search1 #search1B #register {
-        display: inline-block; }
+        display: inline-block;
+        color: #0E92B5; }
       #mainWrapper #search1 #search1B #signIn {
-        display: inline-block; }
+        display: inline-block;
+        color: #0E92B5;
+        background-color: white;
+        color: #0E92B5;
+        border: 1px solid #0E92B5;
+        padding: 8px;
+        border-radius: 3px; }
       #mainWrapper #search1 #search1B #cart {
-        display: inline-block; }
+        display: inline-block;
+        margin: 0 0 0 30px;
+        font-size: 15px; }
   #mainWrapper #search2 {
-    background-color: yellow;
+    background-color: green;
+    margin: 0;
     width: 100%;
-    height: 60px; }
+    height: 40px;
+    border-bottom: 1px solid #E1E3DF; }
     #mainWrapper #search2 ul li {
       float: left;
-      padding: 15px; }
+      padding: 15px;
+      color: #888888; }
   #mainWrapper #contentWrapper {
     background-color: grey;
-    width: 100%;
-    overflow: auto; }
+    width: 90%;
+    margin: 0 auto; }
     #mainWrapper #contentWrapper .aside {
       background-color: blue;
       width: 25%;
@@ -84,9 +124,17 @@ ul, li {
       display: inline-block; }
       #mainWrapper #contentWrapper #mainContent .liveDataContainer {
         margin: 0 auto;
-        width: 30%;
+        width: 33%;
+        height: 250px;
         background-color: yellow;
-        display: inline-block; }
+        float: left; }
+        #mainWrapper #contentWrapper #mainContent .liveDataContainer .liveTitleContainer {
+          height: 40px;
+          overflow: hidden;
+          font-size: 12px; }
+        #mainWrapper #contentWrapper #mainContent .liveDataContainer .livePriceContainer {
+          height: 30px;
+          font-size: 12px; }
   #mainWrapper footer {
     background-color: yellow;
     width: 100%;

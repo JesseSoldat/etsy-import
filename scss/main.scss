@@ -1,8 +1,20 @@
 a {
   text-decoration: none;
+  &:link {
+    color: #0E92B5;
+    font-weight: 100;
+  }
+}
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
 }
 ul, li {
   list-style: none;
+}
+nav {
+  margin: 0;
+  padding: 0;
 }
 #mainWrapper {
   background-color: pink;
@@ -12,170 +24,204 @@ ul, li {
       background-color: orange;
       width: 100%;
       height: 80px;
+      border-bottom: 1px solid #E1E3DF;
+      margin: 0;
+
         #search1A {
+          background-color: blue;
           display: inline-block;
-          width: 45%;
+          width: 49%;
+          margin: 0;
 
             #etsyLogo {
               display: inline-block;
+              color: #F56400;
             }
             #whiskeySearch {
               display: inline-block;
+              background-color: white;
+              border: 1px solid #B2B2B2;
+              padding: 8px 60px;
+              margin: 0px;
+
             }
             #whiskeySearchBtn {
               display: inline-block;
+              background-color: #34A8C4;
+              color: white;
+              padding: 8px 20px;
+              border-radius: 3px;
+              margin: 0px;
             }
-        }
+        } //end of search1A
         #search1B {
           display: inline-block;
           width: 45%;
-        
-            #sellOnEtsy {
-              display: inline-block;
-            }
+          margin: 10px 0;
+          background-color: purple;
 
-            #register {
-              display: inline-block;
-            }
-            #signIn {
-              display: inline-block;
-            }
-            #cart {
-              display: inline-block;
-            }
-        }   
-    }
+          #sellOnEtsy {
+            display: inline-block;
+            color: #0E92B5;
+          }
+          #register {
+            display: inline-block;
+            color: #0E92B5;
+          }
+          #signIn {
+            display: inline-block;
+            color: #0E92B5;
+            background-color: white;
+            color: #0E92B5;
+            border: 1px solid #0E92B5;
+            padding: 8px;
+            border-radius: 3px;
+          }
+          #cart {
+            display: inline-block;
+            margin: 0 0 0 30px;
+            font-size: 15px;
+          } 
+        }  //end of search1B 
+    } //end of search1
     #search2 {
-      background-color: yellow;
+      background-color: green;
+      margin: 0;
       width: 100%;
-      height: 60px;
-
+      height: 40px;
+      border-bottom: 1px solid #E1E3DF;
+        
         ul li {
         float: left;
         padding: 15px;
+        color: #888888;
         }
         
     }
-
     #contentWrapper {
       background-color: grey;
-      width: 100%;
-      overflow: auto;
-    
+      width: 90%;
+      margin: 0 auto;
         //----------------------
-        .aside {
-          background-color: blue;
-          width: 25%;
-          height: 700px;
-          margin: 0;
-          padding: 0;
-          float: left;
+      .aside {
+        background-color: blue;
+        width: 25%;
+        height: 700px;
+        margin: 0;
+        padding: 0;
+        float: left;
 
-        
-            #allCat {
-              background-color: red;
-
-              ul {
-                line-height: 25px;
-                }
-            }
-            #refineSearch {
-              background-color: purple;
-                ul li{
-                  display: inline-block;
-
-
-                  .filterBox {
-                    display: inline-block;
-                    width: 20px;
-                    height: 20px;
-                    
-                  }
-                  #red {
-                    background-color: red;
-                  }
-                  #orange {
-                    background-color: orange;
-                  }
-                  #yellow {
-                    background-color: yellow;
-                  }
-                  #green {
-                    background-color: green;
-                  }
-                  #blue {
-                    background-color: blue;
-                  }
-                  #purple {
-                    background-color: purple;
-                  }
-                  #black {
-                    background-color: black;
-                  }
-                  #white {
-                    background-color: white;
-                  }
-                }    
-            }
-        }
-            //---------------------
-        #mainContent {
-          background-color: orange;
-          width: 70%;
-          margin: 0;
-          // float: left;
-          display: inline-block;
-
-          .liveDataContainer {
-            margin: 0 auto;
-            width: 30%;
-            background-color: yellow;
-            display: inline-block;
-            
-          }
       
-            
-            
-        } // end of #mainContent
-     } //end of #contentWrapper   
-        //------------------------
-        footer {
-          background-color: yellow;
-          width: 100%;
-          height: 200px;
-        
-            #relatedWhiskey { 
-              background-color: red;
+        #allCat {
+          background-color: red;
 
-              #relatedWhiskeyList1 {
-                // display: inline-block;
-                float: left;
-              }
-              #relatedWhiskeyList2 {
-                // display: inline-block;
-                float: left;
-
-              }
-              #relatedWhiskeyList3 {
-                // display: inline-block;
-                float: left;
-
-              }
+          ul {
+            line-height: 25px;
             }
-            #lookingShops {
-              background-color: green;
-              clear: both;
-            }
-            #numBtnWrapper {
-              ul li {
+        } // end of allCat
+        #refineSearch {
+          background-color: purple;
+            ul li{
+              display: inline-block;
+
+              .filterBox {
                 display: inline-block;
+                width: 20px;
+                height: 20px;
               }
-              button {
-                background-color: grey;
+              #red {
+                background-color: red;
               }
-            }
+              #orange {
+                background-color: orange;
+              }
+              #yellow {
+                background-color: yellow;
+              }
+              #green {
+                background-color: green;
+              }
+              #blue {
+                background-color: blue;
+              }
+              #purple {
+                background-color: purple;
+              }
+              #black {
+                background-color: black;
+              }
+              #white {
+                background-color: white;
+              }
+            } // end of ul li
+        } //end of refineSearch
+    } //end of aside
+          //---------------------
+    #mainContent {
+      background-color: orange;
+      width: 70%;
+      margin: 0;
+      display: inline-block;
 
-         } //end of footer
-            //---------------------
+      .liveDataContainer {
+        margin: 0 auto;
+        width: 33%;
+        height: 250px;
+        background-color: yellow;
+        float: left;
+      
+        .liveTitleContainer {
+          height: 40px;
+          overflow: hidden;
+          font-size: 12px;
+        }
+        .livePriceContainer {
+          height: 30px;
+          // overflow: hidden;
+          font-size: 12px;
+        } 
+      } //YELLOW end of liveDataContainer
+   
+    } // ORANGE end of #mainContent
+ } // GREY end of #contentWrapper   
+    //------------------------
+    footer {
+      background-color: yellow;
+      width: 100%;
+      height: 200px;
+    
+        #relatedWhiskey { 
+          background-color: red;
+
+          #relatedWhiskeyList1 {
+            // display: inline-block;
+            float: left;
+          }
+          #relatedWhiskeyList2 {
+            // display: inline-block;
+            float: left;
+
+          }
+          #relatedWhiskeyList3 {
+            // display: inline-block;
+            float: left;
+
+          }
+        }
+        #lookingShops {
+          background-color: green;
+          clear: both;
+        }
+        #numBtnWrapper {
+          ul li {
+            display: inline-block;
+          }
+          button {
+            background-color: grey;
+          }
+        }
+
+     } //end of footer
+        //---------------------
 
 } // end of mainWrapper
