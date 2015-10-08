@@ -1,36 +1,108 @@
+a {
+  text-decoration: none; }
+
+ul, li {
+  list-style: none; }
+
 #mainWrapper {
   background-color: pink;
   width: 100%; }
-
-#search1 {
-  background-color: orange;
-  width: 100%; }
-
-#search2 {
-  background-color: yellow;
-  width: 100%; }
-
-#contentWrapper {
-  background-color: grey;
-  width: 100%; }
-
-aside {
-  background-color: blue; }
-
-#allCat {
-  background-color: red; }
-
-#refineSearch {
-  background-color: purple; }
-
-#mainContent {
-  background-color: yellow; }
-
-footer {
-  background-color: yellow; }
-
-#relatedWhiskey {
-  background-color: red; }
-
-#lookingShops {
-  background-color: green; }
+  #mainWrapper #search1 {
+    background-color: orange;
+    width: 100%;
+    height: 80px; }
+    #mainWrapper #search1 #search1A {
+      display: inline-block;
+      width: 45%; }
+      #mainWrapper #search1 #search1A #etsyLogo {
+        display: inline-block; }
+      #mainWrapper #search1 #search1A #whiskeySearch {
+        display: inline-block; }
+      #mainWrapper #search1 #search1A #whiskeySearchBtn {
+        display: inline-block; }
+    #mainWrapper #search1 #search1B {
+      display: inline-block;
+      width: 45%; }
+      #mainWrapper #search1 #search1B #sellOnEtsy {
+        display: inline-block; }
+      #mainWrapper #search1 #search1B #register {
+        display: inline-block; }
+      #mainWrapper #search1 #search1B #signIn {
+        display: inline-block; }
+      #mainWrapper #search1 #search1B #cart {
+        display: inline-block; }
+  #mainWrapper #search2 {
+    background-color: yellow;
+    width: 100%;
+    height: 60px; }
+    #mainWrapper #search2 ul li {
+      float: left;
+      padding: 15px; }
+  #mainWrapper #contentWrapper {
+    background-color: grey;
+    width: 100%;
+    overflow: auto; }
+    #mainWrapper #contentWrapper .aside {
+      background-color: blue;
+      width: 25%;
+      height: 700px;
+      margin: 0;
+      padding: 0;
+      float: left; }
+      #mainWrapper #contentWrapper .aside #allCat {
+        background-color: red; }
+        #mainWrapper #contentWrapper .aside #allCat ul {
+          line-height: 25px; }
+      #mainWrapper #contentWrapper .aside #refineSearch {
+        background-color: purple; }
+        #mainWrapper #contentWrapper .aside #refineSearch ul li {
+          display: inline-block; }
+          #mainWrapper #contentWrapper .aside #refineSearch ul li .filterBox {
+            display: inline-block;
+            width: 20px;
+            height: 20px; }
+          #mainWrapper #contentWrapper .aside #refineSearch ul li #red {
+            background-color: red; }
+          #mainWrapper #contentWrapper .aside #refineSearch ul li #orange {
+            background-color: orange; }
+          #mainWrapper #contentWrapper .aside #refineSearch ul li #yellow {
+            background-color: yellow; }
+          #mainWrapper #contentWrapper .aside #refineSearch ul li #green {
+            background-color: green; }
+          #mainWrapper #contentWrapper .aside #refineSearch ul li #blue {
+            background-color: blue; }
+          #mainWrapper #contentWrapper .aside #refineSearch ul li #purple {
+            background-color: purple; }
+          #mainWrapper #contentWrapper .aside #refineSearch ul li #black {
+            background-color: black; }
+          #mainWrapper #contentWrapper .aside #refineSearch ul li #white {
+            background-color: white; }
+    #mainWrapper #contentWrapper #mainContent {
+      background-color: orange;
+      width: 70%;
+      margin: 0;
+      display: inline-block; }
+      #mainWrapper #contentWrapper #mainContent .liveDataContainer {
+        margin: 0 auto;
+        width: 30%;
+        background-color: yellow;
+        display: inline-block; }
+  #mainWrapper footer {
+    background-color: yellow;
+    width: 100%;
+    height: 200px; }
+    #mainWrapper footer #relatedWhiskey {
+      background-color: red; }
+      #mainWrapper footer #relatedWhiskey #relatedWhiskeyList1 {
+        float: left; }
+      #mainWrapper footer #relatedWhiskey #relatedWhiskeyList2 {
+        float: left; }
+      #mainWrapper footer #relatedWhiskey #relatedWhiskeyList3 {
+        float: left; }
+    #mainWrapper footer #lookingShops {
+      background-color: green;
+      clear: both; }
+    #mainWrapper footer #numBtnWrapper ul li {
+      display: inline-block; }
+    #mainWrapper footer #numBtnWrapper button {
+      background-color: grey; }
