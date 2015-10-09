@@ -20,143 +20,142 @@ nav {
   background-color: pink;
   width: 100%;
 
-    #search1 {
-      background-color: orange;
-      width: 100%;
-      height: 80px;
-      border-bottom: 1px solid #E1E3DF;
+  #search1 {
+    background-color: orange;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid #E1E3DF;
+    margin: 0;
+
+    #search1A {
+      background-color: blue;
+      display: inline-block;
+      width: 49%;
       margin: 0;
 
-        #search1A {
-          background-color: blue;
-          display: inline-block;
-          width: 49%;
-          margin: 0;
+      #etsyLogo {
+        display: inline-block;
+        color: #F56400;
+      }
+      #whiskeySearch {
+        display: inline-block;
+        background-color: white;
+        border: 1px solid #B2B2B2;
+        padding: 8px 60px;
+        margin: 0px;
 
-            #etsyLogo {
-              display: inline-block;
-              color: #F56400;
-            }
-            #whiskeySearch {
-              display: inline-block;
-              background-color: white;
-              border: 1px solid #B2B2B2;
-              padding: 8px 60px;
-              margin: 0px;
+      }
+      #whiskeySearchBtn {
+        display: inline-block;
+        background-color: #34A8C4;
+        color: white;
+        padding: 8px 20px;
+        border-radius: 3px;
+        margin: 0px;
+      }
+  } //end of search1A
+  #search1B {
+    display: inline-block;
+    width: 45%;
+    margin: 10px 0;
+    background-color: purple;
 
-            }
-            #whiskeySearchBtn {
-              display: inline-block;
-              background-color: #34A8C4;
-              color: white;
-              padding: 8px 20px;
-              border-radius: 3px;
-              margin: 0px;
-            }
-        } //end of search1A
-        #search1B {
-          display: inline-block;
-          width: 45%;
-          margin: 10px 0;
-          background-color: purple;
-
-          #sellOnEtsy {
-            display: inline-block;
-            color: #0E92B5;
-          }
-          #register {
-            display: inline-block;
-            color: #0E92B5;
-          }
-          #signIn {
-            display: inline-block;
-            color: #0E92B5;
-            background-color: white;
-            color: #0E92B5;
-            border: 1px solid #0E92B5;
-            padding: 8px;
-            border-radius: 3px;
-          }
-          #cart {
-            display: inline-block;
-            margin: 0 0 0 30px;
-            font-size: 15px;
-          } 
-        }  //end of search1B 
-    } //end of search1
-    #search2 {
-      background-color: green;
-      margin: 0;
-      width: 100%;
-      height: 40px;
-      border-bottom: 1px solid #E1E3DF;
-        
-        ul li {
-        float: left;
-        padding: 15px;
-        color: #888888;
-        }
-        
+    #sellOnEtsy {
+      display: inline-block;
+      color: #0E92B5;
     }
-    #contentWrapper {
-      background-color: grey;
-      width: 90%;
-      margin: 0 auto;
-        //----------------------
-      .aside {
-        background-color: blue;
-        width: 25%;
-        height: 700px;
-        margin: 0;
-        padding: 0;
-        float: left;
-
+    #register {
+      display: inline-block;
+      color: #0E92B5;
+    }
+    #signIn {
+      display: inline-block;
+      color: #0E92B5;
+      background-color: white;
+      color: #0E92B5;
+      border: 1px solid #0E92B5;
+      padding: 8px;
+      border-radius: 3px;
+    }
+    #cart {
+      display: inline-block;
+      margin: 0 0 0 30px;
+      font-size: 15px;
+      } 
+    } //end of search1B 
+  } //end of search1
+  #search2 {
+    background-color: green;
+    margin: 0;
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #E1E3DF;
       
-        #allCat {
-          background-color: red;
+    ul li {
+    float: left;
+    padding: 15px;
+    color: #888888;
+    }  
+  }//end of search2
+  #contentWrapper {
+    background-color: grey;
+    width: 90%;
+    margin: 0 auto;
+      //----------------------
+    .aside {
+      background-color: blue;
+      width: 25%;
+      height: 700px;
+      margin: 0;
+      padding: 0;
+      float: left;
 
-          ul {
-            line-height: 25px;
-            }
-        } // end of allCat
-        #refineSearch {
-          background-color: purple;
-            ul li{
-              display: inline-block;
+    
+      #allCat {
+        background-color: red;
 
-              .filterBox {
-                display: inline-block;
-                width: 20px;
-                height: 20px;
-              }
-              #red {
-                background-color: red;
-              }
-              #orange {
-                background-color: orange;
-              }
-              #yellow {
-                background-color: yellow;
-              }
-              #green {
-                background-color: green;
-              }
-              #blue {
-                background-color: blue;
-              }
-              #purple {
-                background-color: purple;
-              }
-              #black {
-                background-color: black;
-              }
-              #white {
-                background-color: white;
-              }
-            } // end of ul li
-        } //end of refineSearch
+        ul {
+          line-height: 25px;
+          }
+      } // end of allCat
+      #refineSearch {
+        background-color: purple;
+          ul li{
+            display: inline-block;
+
+          .filterBox {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+          }
+          #red {
+            background-color: red;
+          }
+          #orange {
+            background-color: orange;
+          }
+          #yellow {
+            background-color: yellow;
+          }
+          #green {
+            background-color: green;
+          }
+          #blue {
+            background-color: blue;
+          }
+          #purple {
+            background-color: purple;
+          }
+          #black {
+            background-color: black;
+          }
+          #white {
+            background-color: white;
+          }
+          } // end of ul li
+      } //end of refineSearch
     } //end of aside
-          //---------------------
+        //---------------------
     #mainContent {
       background-color: orange;
       width: 70%;
@@ -183,45 +182,40 @@ nav {
       } //YELLOW end of liveDataContainer
    
     } // ORANGE end of #mainContent
- } // GREY end of #contentWrapper   
-    //------------------------
-    footer {
-      background-color: yellow;
-      width: 100%;
-      height: 200px;
-    
-        #relatedWhiskey { 
-          background-color: red;
+  } // GREY end of #contentWrapper   
+  //------------------------
+  footer {
+    background-color: yellow;
+    width: 100%;
+    height: 200px;
+  
+    #relatedWhiskey { 
+      background-color: red;
 
-          #relatedWhiskeyList1 {
-            // display: inline-block;
-            float: left;
-          }
-          #relatedWhiskeyList2 {
-            // display: inline-block;
-            float: left;
+      #relatedWhiskeyList1 {
+        float: left;
+      }
+      #relatedWhiskeyList2 {
+        float: left;
+      }
+      #relatedWhiskeyList3 {
+        float: left;
+      }
+    }
+    #lookingShops {
+      background-color: green;
+      clear: both;
+    }
+    #numBtnWrapper {
+      ul li {
+        display: inline-block;
+      }
+      button {
+        background-color: grey;
+      }
+    }
 
-          }
-          #relatedWhiskeyList3 {
-            // display: inline-block;
-            float: left;
+   } //end of footer
+      //---------------------
 
-          }
-        }
-        #lookingShops {
-          background-color: green;
-          clear: both;
-        }
-        #numBtnWrapper {
-          ul li {
-            display: inline-block;
-          }
-          button {
-            background-color: grey;
-          }
-        }
-
-     } //end of footer
-        //---------------------
-
-} // end of mainWrapper
+} // PINK end of mainWrapper
