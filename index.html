@@ -86,31 +86,45 @@
           <li><a href="#">Pet Supplies</a></li>
         </ul>
       </div> <!-- RED end of allCat -->
+      <h4 id="refineText">Refine your search</h4> <!-- PINK -->
       <div id="refineSearch">
-        <h4>Refine your search</h4>
+        <!-- PURPLE -->
+
         <div id="itemType">
-          <h4>Item Type</h4>
+          <h4 id="itemTypeText">Item Type</h4>
           <form>
             <label>
-            <input type="radio">
-            All Items</label><br>
+              <input type="radio" checked>
+              All Items
+            </label>
+
             <label>
-            <input type="radio">
-            <a href="#">Handmade</a></label><br>
+              <input type="radio">
+              <a href="#">Handmade</a>
+            </label>
+
             <label>
-            <input type="radio">
-            <a href="#">Vintage</a></label><br>
-          </form> 
+              <input type="radio">
+              <a href="#">Vintage</a>
+            </label>
+          </form>
+          <br>
         </div> <!-- end of itemType -->
          
-        <div id="priceLowToHigh">
-          <h4>Price</h4>
-          <div>$<span>Low</span></div>
+        <div id="priceLowToHigh"> <!-- GREEN -->
+          <h3>Price</h3>
+          <br>
+          <div class="highLow">$<span> Low</span></div>
           <h4>to</h4>
-          <div>$<span>High</span></div>
-          <div id="arrowBtn"></div>
+          <div class="highLow">$<span> High</span></div>
+          <div id="arrowBtn">
+          <img src="images/greyArrow.png">
+            
+          </div>
         </div> <!-- end of priceLowToHigh -->
+        
         <div id="filterByColor">
+        <h4 id="filterByColorText">Filter by Color</h4>
           <ul>
             <li><div class="filterBox" id="red"></div></li>
             <li><div class="filterBox" id="orange"></div></li>
@@ -133,11 +147,28 @@
               <input type="checkbox">
             <a href="#">Customizable</a></label><br>
           </form>
-          <p><a href="#">Choose a custom location</a></p>
+          
         </div>  <!-- end of orderingOptions -->
+        <div id="shopLocation">
+          <h4>Shop Location</h4>
+          <form>
+            <label>
+              <input type="radio" checked>
+            Anywhere</label><br>
+            <label>
+              <input type="radio">
+            <a href="#">United States</a></label><br>
+          </form>
+          <a href="#">Choose a custom location</a>
+          <br>
+          <br>
+          
+        </div> <!-- end of shopLocation -->
+        
+
         <div id="shipTo">
           <h4>Ship To</h4>
-          <select>
+          <select class="dropDown">
             <option value="us">United States</option>
             <option value"au">Australia</option>
             <option value"br">Brazil</option>
@@ -173,11 +204,11 @@
         </div>
 
       <div class="livePriceContainer">
-        <p>
+        
         <%= Shop.shop_name %> 
-        $<%=price%> 
-        <%= currency_code %>
-        </p>
+        <span class="lightGreen">$<%= price%>
+        <%= currency_code %></span>
+        
       </div>
         
 
@@ -190,9 +221,11 @@
 <!-- ................................... -->
 
 <footer>
+  
+<div id="relatedWhiskey">
+
   <div id="relatedWhiskeyHeader">Related to <span>whiskey</span>
   </div>
-  <div id="relatedWhiskey">
     <div id="relatedWhiskeyList1">
       <ul>
         <li><a href="#">whiskey barrel</a></li>
@@ -208,7 +241,8 @@
         <li><a href="#">whiskey bottle</a></li>
         <li><a href="#">beer</a></li>
       </ul>
-    </div><div id="relatedWhiskeyList3">
+    </div>
+    <div id="relatedWhiskeyList3">
       <ul>
         <li><a href="#">cigar</a></li>
         <li><a href="#">flask</a></li>
@@ -216,7 +250,7 @@
     </div>
   </div> <!-- RED end of relatedWhiskey -->
   <div id="lookingShops">
-    <p>Looking for shops? <a href="#">whiskeyweddingbells</a>,<a href="#">WhiskeyDogWares</a>,<a href="#">WhiskeyWhims</a>.<a href="#">See more</a>.</p>
+    <p>Looking for shops? <a href="#">whiskeyweddingbells</a>, <a href="#">WhiskeyDogWares</a>, <a href="#">WhiskeyWhims</a>. <a href="#">See more</a>.</p>
   </div> <!-- GREEN end of lookingShops -->
   <div id="numBtnWrapper">
     <ul>
@@ -233,10 +267,10 @@
       <li><button>250</button></li>
       <li><button>></button></li>
 
-
-
     </ul>
   </div> <!-- end of numBtnWrapper -->
+  <br>
+  <hr><br><br>
 </footer> <!-- YELLOW --> 
 </div> <!-- PINK end of main wrapper -->
 <!-- ................................... -->
