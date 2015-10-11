@@ -191,29 +191,7 @@
 <!-- ................................... -->
   <section id="mainContent"> <!-- ORANGE -->
    
-    <script type="text/template" id="itemTemplate">
-
-          
-      <div class="liveDataContainer">
-        <img src="<%= Images[0].url_170x135 %>">
-
-        <div class="liveTitleContainer">
-          <p class="liveTitle">
-          <%=title%>
-          </p>
-        </div>
-
-      <div class="livePriceContainer">
-        
-        <%= Shop.shop_name %> 
-        <span class="lightGreen">$<%= price%>
-        <%= currency_code %></span>
-        
-      </div>
-        
-
-    </script>
-
+    
 
   </section> <!-- ORANGE end of mainContent -->
   </div> <!-- GREY end of contentWrapper -->
@@ -274,6 +252,34 @@
 </footer> <!-- YELLOW --> 
 </div> <!-- PINK end of main wrapper -->
 <!-- ................................... -->
+<script type="text/template" id="itemTemplate">
+
+          
+      <div class="liveDataContainer">
+        <a href="<%= url %>">
+        <img src="<%= Images[0].url_170x135 %>">
+        </a>
+        <a href="<%= url %>">
+        <div class="liveTitleContainer">
+          <p class="liveTitle">
+          <%=title%>
+          </p></a>
+        </div>
+
+      <div class="livePriceContainer">
+        <a href="<%= Shop.url %>">
+        <%= Shop.shop_name %> 
+        </a>
+        <span class="lightGreen">$<%= price%>
+        <%= currency_code %></span>
+       
+      </div>
+        
+
+    </script>
+
+
+
 
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
    <script src="bower_components/underscore/underscore-min.js"></script>

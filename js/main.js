@@ -13,7 +13,7 @@
     var itemHTML = templateFunction(item);
 
     $('#mainContent').append(itemHTML);
- 
+  
  
   });
 
